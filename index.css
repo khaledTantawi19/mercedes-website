@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+}
+header .logo{
+    display: inline-block;
+    margin-left: 120px;
+}
+header .logo img {
+    width: 200px;
+}
+.head {
+    background-color: rgb(0, 0, 0)
+}
+.head a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 40px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+}
+.head button {
+    background-color: rgba(14, 243, 148, 0.945);
+    margin: 30px;
+    color: white;
+    border-radius: 15px;
+    padding: 6px 35px;
+}
+.sign {
+    position: relative;
+}
+img {
+width: 98vw;
+}
+.title {
+    text-align: center;
+}
+.content {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 40vh;
+    height: 50vh;
+}
+.comp {
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+}
+
+.comp input {
+    width: 12vw;
+}
+.butt {
+    display: inline-block;
+    margin-left: 100px;
+}
+.butt button{
+    border-radius: 20px;
+    padding: 6px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.butt button:hover {
+    background-color: rgb(0, 174, 255);
+}
+.g img {
+    width: 50%;
+    float: left;
+}
+.gcontent p {
+    color: white;
+}
+.gcontent p.line {
+border-bottom: 2px solid red;
+width: 130px;
+padding-bottom: 15px;
+}
+.gcontent {
+    width: 40%;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.gt {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #ffffff;
+    border-radius: 10rem;
+  }
+.num {
+    color: white;
+    font-size: 150px;
+    position: relative;
+    float: left;
+    left: 10%;
+    margin-left: 10%;
+    width: 10%;
+}
+p.rrr {
+    position: absolute;
+    font-size: 50px;
+    top: -20%;
+    left: 70%;
+}
+.icons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.ic img {
+    background-color: rgb(252, 10, 10);
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(241, 239, 239);
+    padding: 5px;
+}
+.ic  {
+    display: flex; 
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+.ic p {
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.agt {
+    width: 45%;
+    float: left;
+}
+.agtt {
+    width: 45%;
+    float: right;
+}
+.audio,.audio1 {
+    text-align: center;
+}
+.audio button {
+    background-color: rgb(78, 76, 76);
+    font-weight: bold;
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: red;
+}
+.next a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.next button {
+    background-color: red;
+    border-radius: 20%;
+}
+footer {
+    background-color: rgb(90, 86, 86);
+    height: 100px;
+}
+.social a {
+    margin: 10px;
+}
+.foot a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+.foot a::before{
+    content: "|";
+    margin: 5px;
+    color: red;
+}
+.scroll a:hover{
+    background-color: red;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    body {
+      width: 80%;
+      padding: 0;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body {
+      width: 100%;
+    }
+  }
